@@ -1,4 +1,3 @@
-# STEM-Specs
 # STEM Specs 🎧
 
 **STEM Specs** is an AI-generated podcast presenting structured technical material in spoken form. Each episode is based on documents like specifications, standards, algorithms, or scientific texts in the fields of Science, Technology, Engineering, and Mathematics (STEM).
