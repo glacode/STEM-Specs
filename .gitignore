@@ -1,0 +1,43 @@
+# === General ===
+.DS_Store
+Thumbs.db
+
+# === Node / Python (if tools/scripts use them) ===
+node_modules/
+__pycache__/
+*.pyc
+
+# === Episode drafts or temp files ===
+episodes/**/draft*
+episodes/**/temp*
+episodes/**/~*
+
+# === Audio files (optional: if hosted elsewhere, don't track) ===
+episodes/**/*.mp3
+episodes/**/*.wav
+episodes/**/*.m4a
+
+# === AI tool outputs (if large/generated again) ===
+tools/**/output/
+tools/**/generated/
+*.bak
+
+# === Logs & backups ===
+*.log
+*.bak
+*.swp
+
+# === OS / Editor specific ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === Environment / secrets ===
+.env
+.env.local
+.env.*
+
+# === GitHub Pages (if used with docs/) ===
+docs/.vitepress/cache/
+docs/.vitepress/dist/
