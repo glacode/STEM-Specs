@@ -1,0 +1,82 @@
+HTML Deep Dive (Mind Map)
+├── 1. Introduction
+│   ├── Purpose: Explore HTML specification
+│   └── Benefits: Become more effective developer
+│
+├── 2. Document Structure
+│   ├── DOCTYPE
+│   │   ├── Triggers standards mode
+│   │   └── Prevents quirks mode
+│   ├── <html> element
+│   │   ├── Root element
+│   │   └── lang attribute (accessibility)
+│   ├── <head> section
+│   │   ├── <title> (SEO/UX)
+│   │   ├── <meta> tags
+│   │   │   ├── description
+│   │   │   ├── keywords
+│   │   │   └── viewport
+│   │   ├── <link> (stylesheets, relationships)
+│   │   └── <script>
+│   └── <body>
+│       └── Contains visible content
+│
+├── 3. Element Categories
+│   ├── Metadata content (<head> elements)
+│   ├── Flow content (most body elements)
+│   ├── Phrasing content (text-level elements)
+│   ├── Sectioning content (<article>, <section>)
+│   ├── Heading content (<h1>-<h6>)
+│   ├── Embedded content (<img>, <video>)
+│   ├── Interactive content (<a>, <button>)
+│   └── Palpable content (visible/interactive)
+│
+├── 4. Attributes
+│   ├── Global attributes
+│   │   ├── id (unique identifier)
+│   │   ├── class (styling/hooks)
+│   │   ├── style (inline CSS)
+│   │   ├── title (tooltip)
+│   │   ├── data-* (custom data)
+│   │   └── role/aria-* (accessibility)
+│   └── Element-specific attributes
+│       ├── <a>: href, target, rel
+│       └── <img>: src, alt, loading
+│
+├── 5. Semantic HTML
+│   ├── <article> (self-contained)
+│   ├── <aside> (secondary content)
+│   ├── <nav> (navigation)
+│   ├── <section> (thematic grouping)
+│   ├── <header> (intro content)
+│   ├── <footer> (closing content)
+│   └── <main> (primary content)
+│   └── Benefits
+│       ├── Accessibility
+│       ├── SEO
+│       ├── Maintainability
+│       └── Future compatibility
+│
+├── 6. Key Features
+│   ├── Forms
+│   │   ├── Input types (email, date, etc.)
+│   │   ├── Validation (required, pattern)
+│   │   └── <datalist> (autocomplete)
+│   ├── Tables
+│   │   ├── <thead>, <tbody>, <tfoot>
+│   │   └── <th scope>
+│   └── Links
+│       └── rel values (nofollow, prev/next)
+│
+├── 7. Browser Processing
+│   ├── Parsing → DOM tree
+│   ├── Error tolerance
+│   ├── CSS application
+│   ├── JavaScript interaction
+│   └── Character encoding
+│
+└── 8. HTML Evolution
+    ├── Living standard (WHATWG)
+    ├── New elements/APIs
+    ├── Web Components
+    └── Importance of specification
